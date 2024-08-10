@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- вкладка -->
+		<title>Учитель русского языка Зорина Ольга Валерьевна</title>
+		<link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon" />
+		<!-- стили -->
+		<link rel="stylesheet" href="./css/desktop.css" />
+		<link rel="stylesheet" href="./css/mobile.css" />
+		<!-- скрипты -->
+		<script src="./scripts/main.js" defer></script>
+		<!-- шрифт -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header id="desktop-header">
+			<ul>
+				<li class="w-m">Учитель русского языка Зорина Ольга Валерьевна</li>
+				<li>
+					<small>г. Пермь</small>
+				</li>
+			</ul>
+		</header>
+
+		<main>
+			<section id="sections">
+				<section id="about" class="page">
+					<h1>Я — учитель <mark>русского языка</mark></h1>
+					<p>
+						Учи́тель/учи́тельница или педагог — одна из самых распространённых
+						общественных профессий, направленная на воспитание и обучение
+						следующих поколений.
+					</p>
+					<img src="./assets/portrait.jpg" alt="портрет учителя" />
+				</section>
+
+				<section id="education" class="page hidden">
+					<h2>Высшее образование</h2>
+					<p>
+						Пермский государственный гуманитарно-педагогический университет
+						(ПГГПУ), ранее Пермский государственный педагогический университет
+						(ПГПУ), известен высоким уровнем подготовки специалистов, сильными
+						педагогическими традициями, современными образовательными
+						программами и активной научной деятельностью.
+					</p>
+					<img src="./assets/diploma.jpg" alt="диплом об окончании ПГПУ" />
+					<hr />
+					<h3>КПК</h3>
+					<p>
+						Курсы повышения квалификации — это образовательные программы,
+						предназначенные для профессионального развития специалистов.
+					</p>
+					<section id="rc-gallery">
+						<img
+							src="./assets/rc/1.jpg"
+							alt="сертификат: преподаватель каллиграфии и обучения письму"
+						/>
+						<img
+							src="./assets/rc/2.jpg"
+							alt="удостоверение о повышении квалификации"
+						/>
+					</section>
+				</section>
+
+				<section id="lessions" class="page hidden">
+					<h2>ЧаВО</h2>
+					<ul id="faq">
+						<li>
+							<p>Как и где?</p>
+							<p>
+								<mark>На дому у учителя</mark> или <mark>онлайн</mark> до 20.00.
+								В будни с 15.00, в выходные с 10.00.
+							</p>
+						</li>
+						<li>
+							<p>А можно онлайн?</p>
+							<p>Да, есть вариант онлайн: в Discord или Zoom.</p>
+						</li>
+						<li>
+							<p>Для кого?</p>
+							<p>
+								Я провожу занятия для учеников <mark>5-9 классов</mark> , в том
+								числе подготавливаю к <mark>ОГЭ</mark>.
+							</p>
+						</li>
+						<li>
+							<p>А можно прийти с конкретным вопросом?</p>
+							<p>
+								Да, я могу помочь Вам с решением конкретной задачи: написать
+								сочинение или сделать домашнее задание, например.
+							</p>
+						</li>
+						<li>
+							<p>А сколько стоит?</p>
+							<p>
+								Со стоимостью занятий Вы можете ознакомиться
+								<a href="#pricing">ниже</a>.
+							</p>
+						</li>
+						<li>
+							<p>Есть какие-то акции?</p>
+							<p>
+								Первое, <mark>пробное</mark>, занятие проводится
+								<mark>бесплатно</mark> и длится столько же, сколько обычное - 45
+								минут.
+							</p>
+						</li>
+					</ul>
+					<button class="btn btn-main nav-link" data-link="enroll">
+						Записаться на первое занятие
+					</button>
+					<hr />
+					<h3 id="pricing">Стоимость занятий</h3>
+					<div id="payment-info">
+						<img src="./assets/ruble.svg" alt="Р " />
+						Оплата наличными или переводом
+					</div>
+					<ul id="pricing-list">
+						<li>
+							<p>Абонемент</p>
+							<p class="w-m">3900 ₽</p>
+							<p>
+								Абонемент включает в себя <mark>8 уроков</mark> в месяц. Можно
+								разбивать на 8 занятий по 45 минут, а можно на 4 занятия: каждое
+								будет длится 1 час 30 минут.
+							</p>
+							<button
+								class="btn btn-outline nav-link"
+								data-link="enroll"
+								data-lession="Абонемент"
+							>
+								Выбрать
+							</button>
+						</li>
+						<ul class="row">
+							<li>
+								<p>Обычное занятие</p>
+								<p class="w-m">500 ₽</p>
+								<p>Занятие длится 45 минут.</p>
+								<button
+									class="btn btn-outline nav-link"
+									data-link="enroll"
+									data-lession="Обычное занятие"
+								>
+									Выбрать
+								</button>
+							</li>
+							<li>
+								<p>Группа</p>
+								<p class="w-m">380 ₽</p>
+								<p>В группе от 2 до 5 человек.</p>
+								<button
+									class="btn btn-outline nav-link"
+									data-link="enroll"
+									data-lession="Группа"
+								>
+									Выбрать
+								</button>
+							</li>
+						</ul>
+						<li>
+							<p>Пара</p>
+							<p class="w-m">1000 ₽</p>
+							<p>Занятие длится 1 час 30 минут.</p>
+							<button
+								class="btn btn-outline nav-link"
+								data-link="enroll"
+								data-lession="Пара"
+							>
+								Выбрать
+							</button>
+						</li>
+					</ul>
+				</section>
+
+				<section id="enroll" class="page hidden">
+					<h2>Расскажите больше</h2>
+					<p>Я перезвоню Вам в течение одного дня</p>
+					<form action="">
+						<div class="group">
+							<label for="name" class="w-m label">Имя</label>
+							<input
+								required
+								type="text"
+								id="name"
+								name="name"
+								placeholder="Иван Иванович"
+								minlength="10"
+								maxlength="32"
+								autocomplete="name"
+							/>
+						</div>
+						<div class="group">
+							<label for="phone" class="w-m label">Номер телефона</label>
+							<input
+								required
+								type="text"
+								id="phone"
+								name="phone"
+								placeholder="+ 7 ХХХ ХХХ ХХ ХХ"
+								minlength="11"
+								maxlength="17"
+								autocomplete="tel"
+							/>
+						</div>
+						<div class="group">
+							<label for="type" class="w-m label">Тип</label>
+							<select id="type" name="type" required>
+								<option value="5 класс">5 класс</option>
+								<option value="6 класс">6 класс</option>
+								<option value="7 класс">7 класс</option>
+								<option value="8 класс">8 класс</option>
+								<option value="9 класс">9 класс</option>
+								<option value="Подготовка к ОГЭ">Подготовка к ОГЭ</option>
+							</select>
+							<img src="./assets/form-option-arrow.svg" alt=">" />
+						</div>
+						<div class="group">
+							<label for="desiredLession" class="w-m label">
+								Желаемое занятие
+							</label>
+							<select id="desiredLession" name="desiredLession" required>
+								<option value="Пробное занятие" selected>
+									Пробное занятие
+								</option>
+								<option value="Абонемент">Абонемент</option>
+								<option value="Обычное занятие">Обычное занятие</option>
+								<option value="Группа">Группа</option>
+								<option value="Пара">Пара</option>
+							</select>
+							<img src="./assets/form-option-arrow.svg" alt=">" />
+						</div>
+						<div class="group">
+							<label for="format" class="w-m label">Формат</label>
+							<select id="format" name="format" required>
+								<option value="На дому" selected>На дому</option>
+								<option value="Zoom">Zoom</option>
+								<option value="Discord">Discord</option>
+							</select>
+							<img src="./assets/form-option-arrow.svg" alt=">" />
+						</div>
+						<div class="group">
+							<label for="more" class="w-m label">Ваши пожелания</label>
+							<textarea
+								required
+								name="more"
+								id="more"
+								rows="4"
+								placeholder="Расскажите о себе, поделитесь своими целями на занятия и ожиданиями от них"
+								minlength="24"
+								maxlength="120"
+							></textarea>
+						</div>
+						<button class="btn btn-main">Записаться</button>
+					</form>
+					<button class="btn btn-link" data-open="dialog enroll">
+						Написать или позвонить
+					</button>
+				</section>
+			</section>
+
+			<nav>
+				<h3>НАВИГАЦИЯ</h3>
+				<ul>
+					<li>
+						<button class="active nav-link" data-link="about">
+							Обо мне <img src="./assets/nav-arrow.svg" alt="—>" />
+						</button>
+					</li>
+					<li>
+						<button class="nav-link" data-link="education">
+							Квалификация <img src="./assets/nav-arrow.svg" alt="—>" />
+						</button>
+					</li>
+					<li>
+						<button class="nav-link" data-link="lessions">
+							О занятиях <img src="./assets/nav-arrow.svg" alt="—>" />
+						</button>
+					</li>
+					<li>
+						<button class="nav-link" data-link="enroll">
+							Записаться <img src="./assets/nav-arrow.svg" alt="—>" />
+						</button>
+					</li>
+				</ul>
+			</nav>
+		</main>
+
+		<dialog id="enroll-question">
+			<div class="dialog-container">
+				<button class="close-dialog">
+					<svg
+						width="85"
+						height="85"
+						viewBox="0 0 85 85"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<rect
+							width="84.5692"
+							height="84.5134"
+							rx="42.2567"
+							fill="#212121"
+							fill-opacity="0.05"
+						/>
+						<g opacity="0.75">
+							<path
+								class="path1"
+								d="M30.9709 53.5704L53.5984 30.943"
+								stroke="#212121"
+								stroke-width="4"
+								stroke-linecap="round"
+							/>
+							<path
+								class="path2"
+								d="M30.9709 30.943L53.5984 53.5704"
+								stroke="#212121"
+								stroke-width="4"
+								stroke-linecap="round"
+							/>
+						</g>
+					</svg>
+					<!-- <img src="./assets/close.svg" alt="X (закрыть)" /> -->
+				</button>
+				<h2>Связаться самостоятельно по поводу <mark>занятий</mark></h2>
+				<div class="group">
+					<p class="w-m label">Связаться по номеру телефона</p>
+					<div class="field">
+						<p>+7 ••• ••• •• ••</p>
+						<button class="btn-link w-m" data-copy="+7-967-903-95-97">
+							Посмотреть номер
+						</button>
+					</div>
+				</div>
+				<div class="group">
+					<p class="w-m label">Связаться по почте</p>
+					<div class="field">
+						<p>olga.tutor.lessions@mail.ru</p>
+						<button
+							class="btn-link w-m"
+							data-copy="olga.tutor.lessions@mail.ru"
+						>
+							Скопировать почту
+						</button>
+					</div>
+				</div>
+				<button class="btn-link" data-open="dialog work">
+					Связаться по рабочему вопросу
+				</button>
+			</div>
+		</dialog>
+
+		<dialog id="work-question">
+			<div class="dialog-container">
+				<button class="close-dialog">
+					<svg
+						width="85"
+						height="85"
+						viewBox="0 0 85 85"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<rect
+							width="84.5692"
+							height="84.5134"
+							rx="42.2567"
+							fill="#212121"
+							fill-opacity="0.05"
+						/>
+						<g opacity="0.75">
+							<path
+								class="path1"
+								d="M30.9709 53.5704L53.5984 30.943"
+								stroke="#212121"
+								stroke-width="4"
+								stroke-linecap="round"
+							/>
+							<path
+								class="path2"
+								d="M30.9709 30.943L53.5984 53.5704"
+								stroke="#212121"
+								stroke-width="4"
+								stroke-linecap="round"
+							/>
+						</g>
+					</svg>
+					<!-- <img src="./assets/close.svg" alt="X (закрыть)" /> -->
+				</button>
+				<h2>Связаться по <mark>рабочему</mark> вопросу</h2>
+				<section id="note">
+					<p>
+						Обращаю Ваше внимание, что этот раздел не предназначен для вопросов
+						по поводу занятий.
+					</p>
+					<span class="w-m">
+						Любые вопросы, относяшиеся к записи на занятия, направленные на
+						почту olga.tutor.business@mail.ru, будут проигнорированы.
+					</span>
+					<p>
+						Нажали не туда, куда нужно?
+						<button class="w-m btn-link" data-open="dialog enroll">
+							Связаться по поводу занятий
+						</button>
+					</p>
+				</section>
+				<div class="group">
+					<p class="w-m label">Связаться по номеру телефона</p>
+					<div class="field">
+						<p>+7 ••• ••• •• ••</p>
+						<button class="btn-link w-m" data-copy="+7-967-903-95-97">
+							Посмотреть номер
+						</button>
+					</div>
+				</div>
+				<div class="group">
+					<p class="w-m label">Связаться по почте</p>
+					<div class="field">
+						<p>olga.tutor.business@mail.ru</p>
+						<button
+							class="btn-link w-m"
+							data-copy="olga.tutor.lessions@mail.ru"
+						>
+							Скопировать почту
+						</button>
+					</div>
+				</div>
+				<hr />
+				<h3>Или заполните форму</h3>
+				<p>Я свяжусь с Вами в течение недели</p>
+				<form action="">
+					<div class="group">
+						<label for="fullname" class="w-m label">Полное имя</label>
+						<input
+							required
+							type="text"
+							id="fullname"
+							name="fullname"
+							placeholder="Иванов Иван Иванович"
+							minlength="10"
+							maxlength="32"
+							autocomplete="name"
+						/>
+					</div>
+					<div class="conc">
+						<div class="group">
+							<label for="phone" class="w-m label">Номер телефона</label>
+							<input
+								required
+								type="text"
+								id="phone"
+								name="phone"
+								placeholder="+ 7 ХХХ ХХХ ХХ ХХ"
+								minlength="11"
+								maxlength="17"
+								autocomplete="tel"
+							/>
+						</div>
+						<div class="group">
+							<label for="email" class="w-m label">Почта</label>
+							<input
+								required
+								type="text"
+								id="email"
+								name="email"
+								placeholder="example@email.ru"
+								minlength="10"
+								maxlength="32"
+								autocomplete="email"
+							/>
+						</div>
+					</div>
+					<div class="group">
+						<label for="more" class="w-m label">Расскажите больше</label>
+						<textarea
+							required
+							name="more"
+							id="more"
+							rows="4"
+							placeholder="Подробно опишите, что Вас интересует"
+							minlength="32"
+							maxlength="240"
+						></textarea>
+					</div>
+					<button class="btn w-m" type="submit">Отправить форму</button>
+				</form>
+			</div>
+		</dialog>
+
+		<footer>
+			<p>Учитель русского языка Зорина Ольга Валерьевна</p>
+			<p>г. Пермь</p>
+			<button class="btn" data-open="dialog work">
+				Обратная связь по рабочим вопросам
+			</button>
+		</footer>
+
+		<div id="devinfo">
+			<a href="#">
+				<small>
+					Сайт разработан &#42;&#8226;&#46;&#184;&#9825; sohee
+					&#9825;&#184;&#46;&#8226;&#42; &nbsp;&nbsp;
+					<span class="w-m">Заказать сайт</span>
+				</small>
+			</a>
+		</div>
+
+		<!-- информация для поисковика -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Person",
+				"name": "Зорина Ольга Валерьевна",
+				"jobTitle": "Репетитор, учитель русского языка",
+				"educationalCredentialAwarded": [
+					{
+						"@type": "EducationalOccupationalCredential",
+						"credentialCategory": "Degree",
+						"name": "Магистратура по специальности русского языка и литературы"
+					},
+					{
+						"@type": "EducationalOccupationalCredential",
+						"credentialCategory": "Certification",
+						"name": "Сертифицированный преподаватель русского языка"
+					},
+					{
+						"@type": "EducationalOccupationalCredential",
+						"credentialCategory": "License",
+						"name": "Лицензия учителя"
+					},
+					{
+						"@type": "EducationalOccupationalCredential",
+						"credentialCategory": "Diploma",
+						"name": "Диплом ВУЗа"
+					}
+				],
+				"knowsAbout": ["Russian", "Literature"],
+				"description": "",
+				"offers": [
+					{
+						"@type": "Offer",
+						"name": "Абонемент на индивидуальные занятия по русскому языку",
+						"description": "Индивидуальные занятия для 5-9 классов, включая подготовку к ОГЭ. Абонемент включает в себя 8 уроков в месяц. Можно разбивать на 8 занятий по 45 минут, а можно на 4 занятия: каждое будет длится 1 час 30 минут.",
+						"priceCurrency": "RUB",
+						"price": "3900",
+						"itemOffered": {
+							"@type": "EducationalOrganization",
+							"name": "Уроки русского языка"
+						}
+					},
+					{
+						"@type": "Offer",
+						"name": "Индивидуальное занятие по русскому языку",
+						"description": "Индивидуальное занятие для 5-9 классов, включая подготовку к ОГЭ. Занятие длится 45 минут.",
+						"priceCurrency": "RUB",
+						"price": "500",
+						"itemOffered": {
+							"@type": "EducationalOrganization",
+							"name": "Уроки русского языка"
+						}
+					},
+					{
+						"@type": "Offer",
+						"name": "Индивидуальная пара по русскому языку",
+						"description": "Индивидуальное занятие для 5-9 классов, включая подготовку к ОГЭ. Занятие длится 1 час 30 минут.",
+						"priceCurrency": "RUB",
+						"price": "1000",
+						"itemOffered": {
+							"@type": "EducationalOrganization",
+							"name": "Уроки русского языка"
+						}
+					},
+					{
+						"@type": "Offer",
+						"name": "Групповое занятие по русскому языку",
+						"description": "Групповое занятие для 5-9 классов, включая подготовку к ОГЭ. В группе от 2 до 5 человек",
+						"priceCurrency": "RUB",
+						"price": "380",
+						"itemOffered": {
+							"@type": "EducationalOrganization",
+							"name": "Уроки русского языка"
+						}
+					}
+				],
+			     "mainEntity": {
+			 "@type": "FAQPage",
+			 "mainEntity": [
+			   {
+			     "@type": "Question",
+			     "name": "Как и где?",
+			     "acceptedAnswer": {
+			       "@type": "Answer",
+			       "text": "На дому у учителя или онлайн до 20.00. В будни с 15.00, в выходные с 10.00."
+			     }
+			   },
+			   {
+			     "@type": "Question",
+			     "name": "А можно онлайн?",
+			     "acceptedAnswer": {
+			       "@type": "Answer",
+			       "text": "Да, есть вариант онлайн: в Discord или Zoom."
+			     }
+			   },
+			   {
+			     "@type": "Question",
+			     "name": "Для кого?",
+			     "acceptedAnswer": {
+			       "@type": "Answer",
+			       "text": "Я провожу занятия для учеников 5-9 классов, в том числе подготавливаю к ОГЭ."
+			     }
+			   },
+			   {
+			     "@type": "Question",
+			     "name": "А можно прийти с конкретным вопросом?",
+			     "acceptedAnswer": {
+			       "@type": "Answer",
+			       "text": "Да, я могу помочь Вам с решением конкретной задачи: написать сочинение или сделать домашнее задание, например."
+			     }
+			   },
+			   {
+			     "@type": "Question",
+			     "name": "А сколько стоит?",
+			     "acceptedAnswer": {
+			       "@type": "Answer",
+			       "text": "Со стоимостью занятий Вы можете ознакомиться ниже."
+			     }
+			   },
+			   {
+			     "@type": "Question",
+			     "name": "Есть какие-то акции?",
+			     "acceptedAnswer": {
+			       "@type": "Answer",
+			       "text": "Первое, пробное, занятие проводится бесплатно и длится столько же, сколько обычное - 45 минут."
+			     }
+			   }
+			 ]
+			}
+		</script>
+	</body>
+</html>
